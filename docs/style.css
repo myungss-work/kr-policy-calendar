@@ -1,0 +1,188 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap");
+
+:root {
+  --paper: #e8eaee;
+  --surface: #ffffff;
+  --surface-sunk: #f3f5f7;
+  --ink: #10141a;
+  --ink-2: #59616e;
+  --ink-3: #8b93a1;
+  --rule: #d2d7de;
+  --rule-strong: #b6bdc7;
+  --now: #b8175c;
+
+  --c-MONETARY: #c4320a;
+  --c-INDICATOR: #0e7090;
+  --c-REALESTATE: #067647;
+  --c-FISCAL: #b54708;
+  --c-ASSEMBLY: #6941c6;
+  --c-FINANCE: #175cd3;
+  --c-MARKET: #475467;
+  --c-GLOBAL: #98a2b3;
+  --c-CUSTOM: #b8175c;
+
+  --mono: "JetBrains Mono", ui-monospace, monospace;
+  --sans: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shell { max-width: 1180px; margin: 0 auto; padding: 24px 20px 64px; }
+
+/* ── 헤더 ───────────────────────────────────────── */
+.masthead {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap; padding-bottom: 14px;
+  border-bottom: 2px solid var(--ink);
+}
+.wordmark { font-size: 22px; font-weight: 800; letter-spacing: -0.03em; margin: 0; }
+.wordmark span { color: var(--ink-3); font-weight: 500; }
+.stamp {
+  font-family: var(--mono); font-size: 11px; color: var(--ink-2);
+  text-align: right; line-height: 1.7;
+}
+.stamp b { color: var(--ink); font-weight: 600; }
+
+/* ── 시그니처: 90일 레일 ─────────────────────────── */
+.rail {
+  position: relative; height: 74px; margin: 18px 0 22px;
+  background: var(--surface); border: 1px solid var(--rule);
+  overflow: hidden;
+}
+.rail-baseline {
+  position: absolute; left: 0; right: 0; bottom: 22px;
+  border-top: 1px solid var(--rule-strong);
+}
+.rail-tick {
+  position: absolute; bottom: 22px; width: 2px;
+  background: var(--tick, var(--ink-2)); border-radius: 1px;
+  transition: height .15s ease;
+}
+.rail-tick:hover { outline: 4px solid rgba(16,20,26,.08); }
+.rail-month {
+  position: absolute; bottom: 4px; font-family: var(--mono);
+  font-size: 10px; color: var(--ink-3); transform: translateX(-50%);
+  white-space: nowrap;
+}
+.rail-month::before {
+  content: ""; position: absolute; left: 50%; bottom: 16px;
+  height: 8px; border-left: 1px solid var(--rule-strong);
+}
+.rail-now { position: absolute; top: 0; bottom: 18px; border-left: 2px solid var(--now); }
+.rail-now::after {
+  content: "오늘"; position: absolute; top: 2px; left: 4px;
+  font-family: var(--mono); font-size: 10px; font-weight: 600; color: var(--now);
+}
+.rail-caption {
+  position: absolute; top: 6px; right: 10px;
+  font-family: var(--mono); font-size: 10px; color: var(--ink-3);
+}
+
+/* ── 컨트롤 ─────────────────────────────────────── */
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
+button, select, input[type="search"] {
+  font-family: inherit; font-size: 13px; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--rule-strong);
+  padding: 6px 12px; cursor: pointer;
+}
+button:hover, select:hover { border-color: var(--ink-2); }
+button:focus-visible, select:focus-visible, input:focus-visible, .chip:focus-visible {
+  outline: 2px solid var(--now); outline-offset: 1px;
+}
+input[type="search"] { cursor: text; min-width: 180px; flex: 1 1 180px; }
+.month-nav { display: flex; align-items: center; gap: 4px; }
+.month-label { font-family: var(--mono); font-weight: 600; min-width: 108px; text-align: center; }
+.spacer { flex: 1 1 auto; }
+.ghost { background: transparent; border-color: var(--rule); color: var(--ink-2); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; padding: 4px 10px; border: 1px solid var(--rule-strong);
+  background: var(--surface); cursor: pointer; user-select: none;
+}
+.chip::before { content: ""; width: 8px; height: 8px; background: var(--dot); }
+.chip[aria-pressed="false"] { opacity: .38; }
+
+/* ── 캘린더 ─────────────────────────────────────── */
+.grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.dow { background: var(--surface-sunk); text-align: center; font-size: 11px; font-weight: 600; color: var(--ink-2); padding: 6px 0; }
+.dow.sun { color: #b42318; }
+.cell { background: var(--surface); min-height: 104px; padding: 5px 6px; }
+.cell.void { background: var(--surface-sunk); }
+.cell.today { box-shadow: inset 0 0 0 2px var(--now); }
+.cell.holiday .daynum { color: #b42318; }
+.daynum { font-family: var(--mono); font-size: 11px; color: var(--ink-2); }
+.cell.today .daynum { color: var(--now); font-weight: 600; }
+
+.pill {
+  display: block; width: 100%; text-align: left; margin-top: 3px; padding: 2px 5px;
+  font-size: 11px; line-height: 1.35; border: 0; border-left: 3px solid var(--dot);
+  background: var(--surface-sunk); cursor: pointer;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.pill:hover { background: #e9edf2; }
+.pill.tentative { border-left-style: dashed; color: var(--ink-2); }
+.pill.cancelled { text-decoration: line-through; color: var(--ink-3); }
+.pill .star { color: var(--dot); font-family: var(--mono); }
+.more { font-size: 10px; color: var(--ink-3); margin-top: 2px; }
+
+/* ── 표 ─────────────────────────────────────────── */
+.table-head { display: flex; align-items: baseline; gap: 10px; margin: 28px 0 10px; }
+.table-head h2 { font-size: 15px; margin: 0; letter-spacing: -0.01em; }
+.table-head .count { font-family: var(--mono); font-size: 12px; color: var(--ink-2); }
+table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--rule); }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); font-size: 13px; vertical-align: top; }
+th { background: var(--surface-sunk); font-size: 11px; color: var(--ink-2); font-weight: 600; position: sticky; top: 0; }
+tbody tr:hover { background: var(--surface-sunk); }
+tbody tr.past { color: var(--ink-3); }
+td.num { font-family: var(--mono); white-space: nowrap; }
+.tag { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; }
+.tag::before { content: ""; width: 8px; height: 8px; background: var(--dot); flex: none; }
+.dday { font-family: var(--mono); font-weight: 600; }
+.dday.soon { color: var(--now); }
+.badge { font-size: 10px; padding: 1px 5px; border: 1px solid currentColor; margin-left: 6px; vertical-align: 1px; }
+.badge.tentative { color: #b54708; }
+.badge.cancelled { color: #b42318; }
+.badge.changed { color: var(--now); }
+
+/* ── 상세 패널 ───────────────────────────────────── */
+.drawer {
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(400px, 92vw);
+  background: var(--surface); border-left: 2px solid var(--ink); padding: 22px;
+  transform: translateX(100%); transition: transform .22s ease; overflow-y: auto; z-index: 20;
+}
+.drawer[data-open="true"] { transform: none; }
+.drawer h3 { margin: 8px 0 4px; font-size: 17px; letter-spacing: -0.02em; }
+.drawer dl { display: grid; grid-template-columns: 78px 1fr; gap: 6px 12px; margin: 18px 0; font-size: 13px; }
+.drawer dt { color: var(--ink-2); }
+.drawer dd { margin: 0; }
+.drawer .close { position: absolute; top: 14px; right: 14px; border: 0; background: transparent; font-size: 18px; }
+
+.empty { padding: 36px; text-align: center; color: var(--ink-2); background: var(--surface); border: 1px dashed var(--rule-strong); }
+.empty b { display: block; color: var(--ink); margin-bottom: 4px; }
+
+footer { margin-top: 40px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 12px; color: var(--ink-3); }
+footer a { color: var(--ink-2); }
+
+@media (max-width: 720px) {
+  .cell { min-height: 72px; }
+  .pill { font-size: 10px; }
+  table { display: block; overflow-x: auto; }
+  .rail { height: 62px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

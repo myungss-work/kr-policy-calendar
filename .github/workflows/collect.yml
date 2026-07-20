@@ -1,0 +1,74 @@
+name: 일정 수집
+
+on:
+  schedule:
+    # GitHub Actions 는 UTC 기준입니다. 22:00 UTC = 07:00 KST, 10:00 UTC = 19:00 KST
+    - cron: "0 22 * * *"
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      sources:
+        description: "수집할 소스 ID (공백 구분, 비우면 전체). 예: bok assembly"
+        required: false
+        default: ""
+
+# data/*.json 을 커밋해야 하므로 쓰기 권한이 필요합니다
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 수집 실행
+        id: collect
+        env:
+          ASSEMBLY_API_KEY: ${{ secrets.ASSEMBLY_API_KEY }}
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          COLLECTOR_CONTACT: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          if [ -n "${{ inputs.sources }}" ]; then
+            python -m collectors.run --only ${{ inputs.sources }} | tee run.log
+          else
+            python -m collectors.run | tee run.log
+          fi
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "policy-calendar-bot"
+          git config user.email "actions@github.com"
+          git add docs/data/
+          if git diff --staged --quiet; then
+            echo "변경 없음 - 커밋 건너뜀"
+            exit 0
+          fi
+          SUMMARY=$(tail -n 1 run.log)
+          git commit -m "데이터 갱신: ${SUMMARY}"
+          git push
+
+      - name: 실행 요약
+        if: always()
+        run: |
+          {
+            echo "### 수집 결과"
+            echo ""
+            echo '```'
+            cat run.log 2>/dev/null || echo "로그 없음"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

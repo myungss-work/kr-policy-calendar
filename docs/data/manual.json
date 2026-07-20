@@ -1,0 +1,15 @@
+{
+  "_comment": "직접 입력하는 일정. locked 는 기본 true 라 자동 수집이 덮어쓰지 않습니다. category: MONETARY|INDICATOR|REALESTATE|FISCAL|ASSEMBLY|FINANCE|MARKET|GLOBAL|CUSTOM",
+  "events": [
+    {
+      "title": "예시 - 삭제하고 실제 일정을 넣으세요",
+      "category": "CUSTOM",
+      "agency": "직접입력",
+      "date": "2026-12-31",
+      "importance": 1,
+      "status": "TENTATIVE",
+      "description": "manual.json 작성 예시입니다.",
+      "source_url": ""
+    }
+  ]
+}
