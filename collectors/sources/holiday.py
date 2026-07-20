@@ -75,6 +75,18 @@ class HolidayAdapter(SourceAdapter):
             if isinstance(items, dict):
                 items = [items]
             rows.extend(items)
+
+        # resultCode 가 "00" 이어도 item 이 비어 오는 경우가 있다(스펙 변경,
+        # 응답 구조 변경 등). 그대로 0건을 넘기면 pipeline.merge 가 기존
+        # 공휴일을 전부 CANCELLED 로 바꾼다. 2개년을 조회했는데 공휴일이
+        # 한 건도 없는 것은 정상일 수 없으므로 예외로 드러낸다.
+        # optional=True 라 SKIP 되어 기존 데이터가 보존된다.
+        if not rows:
+            raise RuntimeError(
+                f"{this_year}~{this_year + 1}년 공휴일이 한 건도 조회되지 "
+                "않았습니다. 응답 구조가 바뀌었을 수 있어 기존 데이터를 "
+                "보존합니다."
+            )
         return rows
 
     @staticmethod

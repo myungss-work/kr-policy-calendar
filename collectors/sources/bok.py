@@ -116,6 +116,7 @@ class BokAdapter(SourceAdapter):
     def parse(self, raw: list[str]) -> list[Event]:
         # eventSn -> {"title": str, "dates": set[str]}
         grouped: dict[str, dict] = {}
+        pages_parsed = 0
 
         for html in raw:
             soup = BeautifulSoup(html, "html.parser")
@@ -125,6 +126,7 @@ class BokAdapter(SourceAdapter):
             table = soup.select_one("div.calendarSet table")
             if not table:
                 continue
+            pages_parsed += 1
             for td in table.select("tbody td"):
                 day_span = td.select_one("div.top span")
                 if not day_span:
@@ -149,6 +151,25 @@ class BokAdapter(SourceAdapter):
                     g["dates"].add(iso)
                     if len(title) > len(g["title"]):
                         g["title"] = title  # 더 설명적인(긴) 제목을 쓴다
+
+        # 사이트가 개편돼 셀렉터가 안 맞으면 위 루프가 전부 continue 되어
+        # 조용히 0건이 된다. 그러면 run.py 가 bok 을 touched 로 표시한 채
+        # 빈 결과를 넘기고, pipeline.merge 가 기존 bok 일정을 전부
+        # CANCELLED 로 바꾼다(실측 재현: 기존 13건 -> CANCELLED 13건).
+        # 파서가 깨졌을 때 데이터가 증발하는 걸 막는 게 CLAUDE.md 원칙이므로
+        # 예외로 드러낸다. optional=True 라 SKIP 되어 기존 데이터가 남는다.
+        if not pages_parsed:
+            raise RuntimeError(
+                f"{len(raw)}개 페이지 어디에서도 달력 표(div.calendarSet table)를 "
+                "찾지 못했습니다. 사이트 구조가 바뀌었을 수 있어 "
+                "기존 데이터를 보존합니다."
+            )
+        if not grouped:
+            raise RuntimeError(
+                f"달력 표는 {pages_parsed}개 파싱했으나 일정을 한 건도 "
+                "추출하지 못했습니다. 항목 셀렉터(ul li a[onclick])가 바뀌었을 "
+                "수 있어 기존 데이터를 보존합니다."
+            )
 
         events: list[Event] = []
         for info in grouped.values():
