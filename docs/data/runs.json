@@ -1,6 +1,52 @@
 {
   "runs": [
     {
+      "started_at": "2026-07-25T08:08:28+09:00",
+      "finished_at": "2026-07-25T08:09:04+09:00",
+      "sources": [
+        {
+          "source": "manual",
+          "status": "OK",
+          "fetched": 1,
+          "seconds": 0.0
+        },
+        {
+          "source": "rules",
+          "status": "OK",
+          "fetched": 70,
+          "seconds": 0.0
+        },
+        {
+          "source": "bok",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "robots.txt 가 이 경로 수집을 막고 있습니다: https://www.bok.or.kr/portal/main/contents.do?menuNo=200761",
+          "seconds": 12.6
+        },
+        {
+          "source": "assembly",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "ASSEMBLY_API_KEY 가 설정되지 않아 건너뜁니다.",
+          "seconds": 12.0
+        },
+        {
+          "source": "holiday",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "DATA_GO_KR_KEY 가 설정되지 않아 건너뜁니다.",
+          "seconds": 12.0
+        }
+      ],
+      "total_events": 71,
+      "changes": {
+        "NEW": 0,
+        "RESCHEDULED": 0,
+        "UPDATED": 0,
+        "CANCELLED": 0
+      }
+    },
+    {
       "started_at": "2026-07-24T20:29:36+09:00",
       "finished_at": "2026-07-24T20:30:13+09:00",
       "sources": [
