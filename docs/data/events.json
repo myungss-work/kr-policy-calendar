@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:09:56+09:00",
+  "generated_at": "2026-08-02T08:00:22+09:00",
   "count": 76,
   "events": [
     {
@@ -136,7 +136,7 @@
       "id": "ae2a24a40f585852",
       "dedupe_key": "rules|INDICATOR|소비자물가동향8월발표|2026-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -159,7 +159,7 @@
       "id": "a11f5c72909b938b",
       "dedupe_key": "rules|INDICATOR|국제수지잠정8월발표|2026-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -182,7 +182,7 @@
       "id": "237c2fa73e90ced4",
       "dedupe_key": "rules|INDICATOR|고용동향8월발표|2026-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -205,7 +205,7 @@
       "id": "8a619a16ca2b621a",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사8월발표|2026-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -228,7 +228,7 @@
       "id": "6ba6262080518e7f",
       "dedupe_key": "rules|INDICATOR|산업활동동향8월발표|2026-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -251,7 +251,7 @@
       "id": "91e6cfe21b663b14",
       "dedupe_key": "rules|INDICATOR|소비자물가동향9월발표|2026-09",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -274,7 +274,7 @@
       "id": "ec344dfa200700ac",
       "dedupe_key": "rules|INDICATOR|국제수지잠정9월발표|2026-09",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -297,7 +297,7 @@
       "id": "564902911798c886",
       "dedupe_key": "rules|INDICATOR|고용동향9월발표|2026-09",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -320,7 +320,7 @@
       "id": "ee44fa030e858863",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사9월발표|2026-09",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -343,7 +343,7 @@
       "id": "f03845b31d52a5d6",
       "dedupe_key": "rules|INDICATOR|산업활동동향9월발표|2026-09",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -366,7 +366,7 @@
       "id": "2b5f4da787823860",
       "dedupe_key": "rules|INDICATOR|소비자물가동향10월발표|2026-10",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -389,7 +389,7 @@
       "id": "1f972a299e3f5d77",
       "dedupe_key": "rules|INDICATOR|국제수지잠정10월발표|2026-10",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -412,7 +412,7 @@
       "id": "da134c1b2e68ae4e",
       "dedupe_key": "rules|INDICATOR|고용동향10월발표|2026-10",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -435,7 +435,7 @@
       "id": "da2c048ff464958a",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사10월발표|2026-10",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -458,7 +458,7 @@
       "id": "884c949687da8c95",
       "dedupe_key": "rules|INDICATOR|산업활동동향10월발표|2026-10",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -481,7 +481,7 @@
       "id": "34574afeb4041f37",
       "dedupe_key": "rules|INDICATOR|소비자물가동향11월발표|2026-11",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -504,7 +504,7 @@
       "id": "7d604cc265b50f07",
       "dedupe_key": "rules|INDICATOR|국제수지잠정11월발표|2026-11",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -527,7 +527,7 @@
       "id": "bfda47724066c716",
       "dedupe_key": "rules|INDICATOR|고용동향11월발표|2026-11",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -550,7 +550,7 @@
       "id": "996028dde12f865a",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사11월발표|2026-11",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -573,7 +573,7 @@
       "id": "5f32ebd87d0e373b",
       "dedupe_key": "rules|INDICATOR|산업활동동향11월발표|2026-11",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -596,7 +596,7 @@
       "id": "86afdd03eae3566c",
       "dedupe_key": "rules|INDICATOR|소비자물가동향12월발표|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -619,7 +619,7 @@
       "id": "c8f24f028fc8e798",
       "dedupe_key": "rules|INDICATOR|국제수지잠정12월발표|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -642,7 +642,7 @@
       "id": "822beecc14118790",
       "dedupe_key": "rules|INDICATOR|고용동향12월발표|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -665,7 +665,7 @@
       "id": "51511cc17d5b742c",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사12월발표|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -688,7 +688,7 @@
       "id": "54da93c727de7913",
       "dedupe_key": "rules|INDICATOR|산업활동동향12월발표|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -709,7 +709,7 @@
       "id": "b2b7571aab62ae14",
       "dedupe_key": "manual|CUSTOM|예시삭제하고실제일정을넣으세요|2026-12",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -732,7 +732,7 @@
       "id": "cb89abd03d5c44be",
       "dedupe_key": "rules|INDICATOR|소비자물가동향1월발표|2027-01",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -755,7 +755,7 @@
       "id": "c126436490db758f",
       "dedupe_key": "rules|INDICATOR|국제수지잠정1월발표|2027-01",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -778,7 +778,7 @@
       "id": "40c87f816280c7f5",
       "dedupe_key": "rules|INDICATOR|고용동향1월발표|2027-01",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -801,7 +801,7 @@
       "id": "a6136eae46b5ca36",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사1월발표|2027-01",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -824,7 +824,7 @@
       "id": "5419a8d45d168c8f",
       "dedupe_key": "rules|INDICATOR|산업활동동향1월발표|2027-01",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -847,7 +847,7 @@
       "id": "62ec99591a41a597",
       "dedupe_key": "rules|INDICATOR|소비자물가동향2월발표|2027-02",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -870,7 +870,7 @@
       "id": "b1c7e232dff5ac2f",
       "dedupe_key": "rules|INDICATOR|국제수지잠정2월발표|2027-02",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -893,7 +893,7 @@
       "id": "8b4cbcfacbbaa49c",
       "dedupe_key": "rules|INDICATOR|고용동향2월발표|2027-02",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -916,7 +916,7 @@
       "id": "c9261ddfb3904f60",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사2월발표|2027-02",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -939,7 +939,7 @@
       "id": "6468f29f26d6aecc",
       "dedupe_key": "rules|INDICATOR|산업활동동향2월발표|2027-02",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -962,7 +962,7 @@
       "id": "0cbce07f288e9808",
       "dedupe_key": "rules|INDICATOR|소비자물가동향3월발표|2027-03",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -985,7 +985,7 @@
       "id": "a04563a8d9ce4772",
       "dedupe_key": "rules|INDICATOR|국제수지잠정3월발표|2027-03",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1008,7 +1008,7 @@
       "id": "7ff6d066eaf17177",
       "dedupe_key": "rules|INDICATOR|고용동향3월발표|2027-03",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1031,7 +1031,7 @@
       "id": "27ba734f838a12e3",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사3월발표|2027-03",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1054,7 +1054,7 @@
       "id": "04b3a4a097b8c83c",
       "dedupe_key": "rules|INDICATOR|산업활동동향3월발표|2027-03",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1077,7 +1077,7 @@
       "id": "37a2aeebd67e9584",
       "dedupe_key": "rules|INDICATOR|소비자물가동향4월발표|2027-04",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1100,7 +1100,7 @@
       "id": "1c32ed711304ae03",
       "dedupe_key": "rules|INDICATOR|국제수지잠정4월발표|2027-04",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1123,7 +1123,7 @@
       "id": "1af9b0ea15a0ad99",
       "dedupe_key": "rules|INDICATOR|고용동향4월발표|2027-04",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1146,7 +1146,7 @@
       "id": "62d50de3cfe60794",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사4월발표|2027-04",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1169,7 +1169,7 @@
       "id": "1dba8e85c8776d68",
       "dedupe_key": "rules|INDICATOR|산업활동동향4월발표|2027-04",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1192,7 +1192,7 @@
       "id": "650cfbc2bce49a0b",
       "dedupe_key": "rules|INDICATOR|소비자물가동향5월발표|2027-05",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1215,7 +1215,7 @@
       "id": "448b358df68336ec",
       "dedupe_key": "rules|INDICATOR|국제수지잠정5월발표|2027-05",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1238,7 +1238,7 @@
       "id": "97efc75d37a56a88",
       "dedupe_key": "rules|INDICATOR|고용동향5월발표|2027-05",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1261,7 +1261,7 @@
       "id": "d63090d390648ac1",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사5월발표|2027-05",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1284,7 +1284,7 @@
       "id": "6d4eae23ae51ad9f",
       "dedupe_key": "rules|INDICATOR|산업활동동향5월발표|2027-05",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1307,7 +1307,7 @@
       "id": "e6be6380685a6306",
       "dedupe_key": "rules|INDICATOR|소비자물가동향6월발표|2027-06",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1330,7 +1330,7 @@
       "id": "a522ef4d418ee9a9",
       "dedupe_key": "rules|INDICATOR|국제수지잠정6월발표|2027-06",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1353,7 +1353,7 @@
       "id": "4e4600eb02e79e83",
       "dedupe_key": "rules|INDICATOR|고용동향6월발표|2027-06",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1376,7 +1376,7 @@
       "id": "6a2775969d9dfdf5",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사6월발표|2027-06",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1399,7 +1399,7 @@
       "id": "2d600175d0e80d15",
       "dedupe_key": "rules|INDICATOR|산업활동동향6월발표|2027-06",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1422,7 +1422,7 @@
       "id": "3e1787240cc28495",
       "dedupe_key": "rules|INDICATOR|소비자물가동향7월발표|2027-07",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1445,7 +1445,7 @@
       "id": "3a45abc669a9cc09",
       "dedupe_key": "rules|INDICATOR|국제수지잠정7월발표|2027-07",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1468,7 +1468,7 @@
       "id": "fcf7200ed2e2a65a",
       "dedupe_key": "rules|INDICATOR|고용동향7월발표|2027-07",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1491,7 +1491,7 @@
       "id": "3969132ff900ce38",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사7월발표|2027-07",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1514,7 +1514,7 @@
       "id": "19af258c87fa5da3",
       "dedupe_key": "rules|INDICATOR|산업활동동향7월발표|2027-07",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1537,7 +1537,7 @@
       "id": "047d7613d45134d6",
       "dedupe_key": "rules|INDICATOR|소비자물가동향8월발표|2027-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1560,7 +1560,7 @@
       "id": "8dd0b3694f77baeb",
       "dedupe_key": "rules|INDICATOR|국제수지잠정8월발표|2027-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1583,7 +1583,7 @@
       "id": "1767de97eae30766",
       "dedupe_key": "rules|INDICATOR|고용동향8월발표|2027-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1606,7 +1606,7 @@
       "id": "89b852e5e2303af9",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사8월발표|2027-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1629,7 +1629,7 @@
       "id": "1f97a15feeeb9c5f",
       "dedupe_key": "rules|INDICATOR|산업활동동향8월발표|2027-08",
       "first_seen_at": "2026-07-20T22:45:55+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-07-20T22:45:55+09:00",
       "day_level_identity": false
     },
@@ -1652,7 +1652,7 @@
       "id": "6d7752b4e8210051",
       "dedupe_key": "rules|INDICATOR|소비자물가동향9월발표|2027-09",
       "first_seen_at": "2026-08-01T20:09:56+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-08-01T20:09:56+09:00",
       "day_level_identity": false
     },
@@ -1675,7 +1675,7 @@
       "id": "019e96cf15adbd67",
       "dedupe_key": "rules|INDICATOR|국제수지잠정9월발표|2027-09",
       "first_seen_at": "2026-08-01T20:09:56+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-08-01T20:09:56+09:00",
       "day_level_identity": false
     },
@@ -1698,7 +1698,7 @@
       "id": "b3633947270de656",
       "dedupe_key": "rules|INDICATOR|고용동향9월발표|2027-09",
       "first_seen_at": "2026-08-01T20:09:56+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-08-01T20:09:56+09:00",
       "day_level_identity": false
     },
@@ -1721,7 +1721,7 @@
       "id": "9634851b1ee8678e",
       "dedupe_key": "rules|REALESTATE|주택가격동향조사9월발표|2027-09",
       "first_seen_at": "2026-08-01T20:09:56+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-08-01T20:09:56+09:00",
       "day_level_identity": false
     },
@@ -1744,7 +1744,7 @@
       "id": "8113a050532de191",
       "dedupe_key": "rules|INDICATOR|산업활동동향9월발표|2027-09",
       "first_seen_at": "2026-08-01T20:09:56+09:00",
-      "last_seen_at": "2026-08-01T20:09:56+09:00",
+      "last_seen_at": "2026-08-02T08:00:22+09:00",
       "updated_at": "2026-08-01T20:09:56+09:00",
       "day_level_identity": false
     }
