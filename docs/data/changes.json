@@ -2,6 +2,116 @@
   "changes": [
     {
       "type": "NEW",
+      "id": "b6b0dbfab3b6e106",
+      "title": "소비자물가동향 (10월 발표)",
+      "date": "2027-10-04",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "e3df5c692c75f3ea",
+      "title": "고용동향 (10월 발표)",
+      "date": "2027-10-15",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "0d30b3b5cc6827cf",
+      "title": "산업활동동향 (10월 발표)",
+      "date": "2027-10-29",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "561079e71bce534d",
+      "title": "국제수지(잠정) (10월 발표)",
+      "date": "2027-10-07",
+      "agency": "한국은행",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "c45568ebf583a5f7",
+      "title": "주택가격동향조사 (10월 발표)",
+      "date": "2027-10-20",
+      "agency": "한국부동산원",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "ae2a24a40f585852",
+      "title": "소비자물가동향 (8월 발표)",
+      "date": "2026-08-04",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "a11f5c72909b938b",
+      "title": "국제수지(잠정) (8월 발표)",
+      "date": "2026-08-07",
+      "agency": "한국은행",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "237c2fa73e90ced4",
+      "title": "고용동향 (8월 발표)",
+      "date": "2026-08-17",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "8a619a16ca2b621a",
+      "title": "주택가격동향조사 (8월 발표)",
+      "date": "2026-08-20",
+      "agency": "한국부동산원",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "6ba6262080518e7f",
+      "title": "산업활동동향 (8월 발표)",
+      "date": "2026-08-31",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-09-01T10:11:15+09:00"
+    },
+    {
+      "type": "NEW",
       "id": "6d7752b4e8210051",
       "title": "소비자물가동향 (9월 발표)",
       "date": "2027-09-02",
