@@ -1,6 +1,52 @@
 {
   "runs": [
     {
+      "started_at": "2026-09-03T08:58:26+09:00",
+      "finished_at": "2026-09-03T08:59:02+09:00",
+      "sources": [
+        {
+          "source": "manual",
+          "status": "OK",
+          "fetched": 1,
+          "seconds": 0.0
+        },
+        {
+          "source": "rules",
+          "status": "OK",
+          "fetched": 70,
+          "seconds": 0.0
+        },
+        {
+          "source": "bok",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "robots.txt 가 이 경로 수집을 막고 있습니다: https://www.bok.or.kr/portal/main/contents.do?menuNo=200761",
+          "seconds": 12.7
+        },
+        {
+          "source": "assembly",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "ASSEMBLY_API_KEY 가 설정되지 않아 건너뜁니다.",
+          "seconds": 12.0
+        },
+        {
+          "source": "holiday",
+          "status": "SKIP",
+          "fetched": 0,
+          "error": "DATA_GO_KR_KEY 가 설정되지 않아 건너뜁니다.",
+          "seconds": 12.0
+        }
+      ],
+      "total_events": 81,
+      "changes": {
+        "NEW": 0,
+        "RESCHEDULED": 0,
+        "UPDATED": 0,
+        "CANCELLED": 0
+      }
+    },
+    {
       "started_at": "2026-09-02T22:56:28+09:00",
       "finished_at": "2026-09-02T22:57:05+09:00",
       "sources": [
@@ -2690,52 +2736,6 @@
           "fetched": 0,
           "error": "robots.txt 가 이 경로 수집을 막고 있습니다: https://www.bok.or.kr/portal/main/contents.do?menuNo=200761",
           "seconds": 12.6
-        },
-        {
-          "source": "assembly",
-          "status": "SKIP",
-          "fetched": 0,
-          "error": "ASSEMBLY_API_KEY 가 설정되지 않아 건너뜁니다.",
-          "seconds": 12.0
-        },
-        {
-          "source": "holiday",
-          "status": "SKIP",
-          "fetched": 0,
-          "error": "DATA_GO_KR_KEY 가 설정되지 않아 건너뜁니다.",
-          "seconds": 12.0
-        }
-      ],
-      "total_events": 76,
-      "changes": {
-        "NEW": 0,
-        "RESCHEDULED": 0,
-        "UPDATED": 0,
-        "CANCELLED": 0
-      }
-    },
-    {
-      "started_at": "2026-08-04T08:10:01+09:00",
-      "finished_at": "2026-08-04T08:10:38+09:00",
-      "sources": [
-        {
-          "source": "manual",
-          "status": "OK",
-          "fetched": 1,
-          "seconds": 0.0
-        },
-        {
-          "source": "rules",
-          "status": "OK",
-          "fetched": 70,
-          "seconds": 0.0
-        },
-        {
-          "source": "bok",
-          "status": "SKIP",
-          "fetched": 0,
-          "error": "robots.txt 가 이 경로 수집을 막고 있습니다: https://www.bok.or.kr/portal/main/contents.do?menuNo=200761",
-          "seconds": 12.7
         },
         {
           "source": "assembly",
