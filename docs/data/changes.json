@@ -2,6 +2,116 @@
   "changes": [
     {
       "type": "NEW",
+      "id": "f7e5f055ab2f4e55",
+      "title": "소비자물가동향 (12월 발표)",
+      "date": "2027-12-02",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "e3aec490c7d64881",
+      "title": "고용동향 (12월 발표)",
+      "date": "2027-12-15",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "3d6971df4c3bbf07",
+      "title": "산업활동동향 (12월 발표)",
+      "date": "2027-12-31",
+      "agency": "통계청",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "7c570f6cd26a00db",
+      "title": "국제수지(잠정) (12월 발표)",
+      "date": "2027-12-07",
+      "agency": "한국은행",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "NEW",
+      "id": "0df535a2ffb1833b",
+      "title": "주택가격동향조사 (12월 발표)",
+      "date": "2027-12-20",
+      "agency": "한국부동산원",
+      "field": null,
+      "before": null,
+      "after": null,
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "2b5f4da787823860",
+      "title": "소비자물가동향 (10월 발표)",
+      "date": "2026-10-02",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "1f972a299e3f5d77",
+      "title": "국제수지(잠정) (10월 발표)",
+      "date": "2026-10-07",
+      "agency": "한국은행",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "da134c1b2e68ae4e",
+      "title": "고용동향 (10월 발표)",
+      "date": "2026-10-15",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "da2c048ff464958a",
+      "title": "주택가격동향조사 (10월 발표)",
+      "date": "2026-10-20",
+      "agency": "한국부동산원",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "CANCELLED",
+      "id": "884c949687da8c95",
+      "title": "산업활동동향 (10월 발표)",
+      "date": "2026-10-30",
+      "agency": "통계청",
+      "field": "status",
+      "before": "CONFIRMED",
+      "after": "CANCELLED",
+      "detected_at": "2026-11-01T09:54:08+09:00"
+    },
+    {
+      "type": "NEW",
       "id": "3ac9f64d32ed6790",
       "title": "소비자물가동향 (11월 발표)",
       "date": "2027-11-02",
